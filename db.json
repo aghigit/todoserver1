@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "todo@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "fece",
+      "taskDate": "2024-01-02",
+      "taskTitle": "running",
+      "taskDetails": "at lest 100km with out break"
+    },
+    {
+      "id": "eb86",
+      "taskDate": "2024-01-02",
+      "taskTitle": "racing",
+      "taskDetails": "with friends(safely) at highway",
+      "taskStatus": "1"
+    },
+    {
+      "id": "711b",
+      "taskDate": "2024-02-02",
+      "taskTitle": "eating",
+      "taskDetails": "nutritious food"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+const jsonServer = require('json-server')
+
+const todoServer = jsonServer.create()
+
+const middleWare = jsonServer.defaults()
+
+const router = jsonServer.router("db.json")
+
+const PORT= 3000|| process.env.PORT
+
+todoServer.use(middleWare)
+todoServer.use(router)
+
+todoServer.listen(PORT,()=>{
+    console.log(`emp server port: ${PORT}`);
+})
